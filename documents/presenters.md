@@ -1,6 +1,6 @@
 ---
 
 ---
-{% for member in site.data.ncse1 %}
+{%- for member in site.data.ncse1 -%}
       {{ member.Title }},{{ member.SessionType }},{{ member.FocusArea }},{{ member.1Abstract }}
-{% endfor %}
+{%- endfor -%}
