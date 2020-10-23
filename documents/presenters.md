@@ -2,5 +2,6 @@
 
 ---
 {% for member in site.data.ncse1 %}
-      {{ member.title }},{{ member.sessiontype }},{{ member.FocusArea }}
+      {{ member.Title }},{{ member.SessionType }},{{ member.FocusArea }},{{ member.1Abstract }}
+
 {% endfor %}
