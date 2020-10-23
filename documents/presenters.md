@@ -1,0 +1,6 @@
+---
+
+---
+{% for member in site.data.ncse1 %}
+      {{ member.title }},{{ member.sessiontype }},{{ member.FocusArea }}
+{% endfor %}
